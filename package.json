@@ -1,0 +1,35 @@
+{
+  "name": "envirox",
+  "version": "0.1.0",
+  "description": "EnviroX: Automated environment setup tool for developers",
+  "main": "bin/envirox.js",
+  "bin": {
+    "envirox": "bin/envirox.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelp03/EnviroX.git"
+  },
+  "keywords": [
+    "automation",
+    "environment",
+    "setup",
+    "cli",
+    "developer-tools",
+    "docker",
+    "nodejs"
+  ],
+  "author": "Neel Patel np.patelneel@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/neelp03/EnviroX/issues"
+  },
+  "homepage": "https://github.com/neelp03/EnviroX",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  }
+}
