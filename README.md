@@ -3,6 +3,14 @@
 
 ---
 
+[![npm version](https://badge.fury.io/js/envirox.svg)](https://www.npmjs.com/package/envirox)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub issues](https://img.shields.io/github/issues/neelp03/envirox.svg)](https://github.com/neelp03/envirox/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/neelp03/envirox.svg)](https://github.com/neelp03/envirox/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/neelp03/envirox.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/neelp03/envirox/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/neelp03/envirox.svg?style=social&label=Star&maxAge=2592000)](https://github.com/neelp03/envirox/stargazers)
+
+
 # EnviroX
 
 **EnviroX** is a CLI tool designed to automate the setup of development environments for various programming languages and frameworks. With a single command, EnviroX detects the necessary dependencies, installs them, and sets up Docker containers if needed.
