@@ -1,6 +1,6 @@
 {
   "name": "envirox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EnviroX: Automated environment setup tool for developers",
   "main": "bin/envirox.js",
   "bin": {
