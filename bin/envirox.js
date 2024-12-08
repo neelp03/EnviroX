@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { installNodeJS, installPython, installGo, installPackageManager } = require('../lib/installTools');
-const { setupEnvironment } = require('../lib/envSetup');  // Import setupEnvironment
+const { setupEnvironment } = require('../lib/envSetup');
 
 async function runSetup() {
   const args = process.argv.slice(2);
@@ -14,7 +14,7 @@ async function runSetup() {
       --language=node     Install Node.js environment
       --language=python   Install Python environment
       --language=go       Install Go environment
-      --docker            Docker setup (coming soon)
+      --docker            Docker setup
       --help, -h          Display this help message
     `);
     return;
@@ -31,11 +31,11 @@ async function runSetup() {
       await installGo();
       console.log('Go setup completed successfully!');
     } else if (args.includes('--docker')) {
-      console.log('Docker setup coming soon...');
+      console.log('Docker setup is being handled automatically now if Dockerfile is detected.');
     } else {
       console.log('EnviroX: Automated Development Environment Setup');
       console.log('Detecting project type and setting up environment...');
-      await setupEnvironment();  // Call setupEnvironment from envSetup.js
+      await setupEnvironment();
     }
 
     process.exit(0); // success
